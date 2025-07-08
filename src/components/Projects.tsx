@@ -61,7 +61,7 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {projects.map((project, index) => (
-            <Card key={index} className="border-none shadow-elegant hover:shadow-glow transition-all duration-300 hover:scale-105 overflow-hidden">
+            <Card key={index} className="border-none shadow-elegant hover:shadow-glow transition-all duration-500 hover-lift overflow-hidden bg-gradient-card hover-neon animate-scale-in" style={{animationDelay: `${index * 0.1}s`}}>
               <div className="relative">
                 <img 
                   src={project.image} 

@@ -40,7 +40,7 @@ const Skills = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {skillCategories.map((category, index) => (
-            <Card key={index} className="border-none shadow-elegant hover:shadow-glow transition-all duration-300 hover:scale-105">
+            <Card key={index} className="border-none shadow-elegant hover:shadow-glow transition-all duration-500 hover-lift bg-gradient-card hover-neon animate-scale-in" style={{animationDelay: `${index * 0.1}s`}}>
               <CardHeader className="text-center pb-4">
                 <div className="flex justify-center mb-4">
                   <div className="p-3 bg-gradient-primary rounded-full text-white">
