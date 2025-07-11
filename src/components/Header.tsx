@@ -10,7 +10,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
-          <h1 className="text-xl font-bold text-primary">Revanth</h1>
+          <h1 className="text-xl font-bold text-primary">Revanth raju Oruganti</h1>
           
           <div className="hidden md:flex items-center space-x-6">
             <button 

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Mail, Phone, Linkedin, Github, Youtube } from "lucide-react";
+import { Mail, Phone, Linkedin, Github } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
@@ -25,7 +25,6 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Placeholder for form submission
     toast({
       title: "Message sent!",
       description: "Thank you for your message. I'll get back to you soon!",
@@ -37,32 +36,41 @@ const Contact = () => {
     {
       icon: <Mail className="h-5 w-5" />,
       label: "Email",
-      value: "revanth.student@example.com",
-      link: "mailto:revanth.student@example.com"
+      value: "revanth.oruganti1818@gmail.com",
+      link: "mailto:revanth.oruganti1818@gmail.com"
     },
     {
       icon: <Phone className="h-5 w-5" />,
       label: "Phone",
-      value: "+91 9876543210",
-      link: "tel:+919876543210"
+      value: "+91 9441537337",
+      link: "tel:+919441537337"
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
       label: "LinkedIn",
-      value: "linkedin.com/in/revanth",
-      link: "https://linkedin.com/in/revanth"
+      value: "linkedin.com/in/revanth-raju-oruganti",
+      link: "https://www.linkedin.com/in/revanth-raju-oruganti-368975259"
     },
     {
       icon: <Github className="h-5 w-5" />,
       label: "GitHub",
-      value: "github.com/revanth",
-      link: "https://github.com/revanth"
+      value: "github.com/0-revanth",
+      link: "https://github.com/0-revanth"
     },
     {
-      icon: <Youtube className="h-5 w-5" />,
-      label: "YouTube",
-      value: "Village Virals GVP",
-      link: "https://youtube.com/@villageviralsgvp"
+      icon: (
+        <svg
+          className="h-5 w-5"
+          fill="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.9.3 2.3.5.6.3 1 .7 1.4 1.4.2.4.4 1.1.5 2.3.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.9-.5 2.3-.3.6-.7 1-1.4 1.4-.4.2-1.1.4-2.3.5-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.9-.3-2.3-.5-.6-.3-1-.7-1.4-1.4-.2-.4-.4-1.1-.5-2.3-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.3-1.9.5-2.3.3-.6.7-1 1.4-1.4.4-.2 1.1-.4 2.3-.5 1.3-.1 1.7-.1 4.9-.1zm0-2.2C8.7 0 8.3 0 7 .1 5.7.2 4.8.4 4 .8 3.1 1.2 2.4 1.9 2 2.8.6 4.8.2 6.7.1 12s.1 7.2.5 9.2c.4.9 1.1 1.6 2 2 2 .4 3.9.6 9.2.6s7.2-.1 9.2-.5c.9-.4 1.6-1.1 2-2 .4-2 .6-3.9.6-9.2s-.1-7.2-.5-9.2c-.4-.9-1.1-1.6-2-2-2-.4-3.9-.6-9.2-.6zM12 5.8c-3.4 0-6.2 2.8-6.2 6.2s2.8 6.2 6.2 6.2 6.2-2.8 6.2-6.2-2.8-6.2-6.2-6.2zm0 10.2c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4zM18.4 4.6c-.8 0-1.4.6-1.4 1.4s.6 1.4 1.4 1.4 1.4-.6 1.4-1.4-.6-1.4-1.4-1.4z" />
+        </svg>
+      ),
+      label: "Instagram",
+      value: "@revanth_raju__0",
+      link: "https://www.instagram.com/revanth_raju__0"
     }
   ];
 

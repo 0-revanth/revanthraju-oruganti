@@ -23,7 +23,7 @@ const Hero = () => {
               alt="Revanth Profile" 
               className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto border-4 border-primary-glow/30 shadow-glow hover-scale animate-glow"
             />
-            <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-30"></div>
+            <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-10"></div>
           </div>
           
           <div className="space-y-4">
@@ -52,7 +52,7 @@ const Hero = () => {
               variant="neon" 
               size="lg"
               onClick={() => scrollToSection('contact')}
-              className="w-full sm:w-auto hover-lift"
+              className="w-full sm:w-auto hover-lift text-black"
             >
               <Mail className="mr-2 h-5 w-5" />
               Contact Me

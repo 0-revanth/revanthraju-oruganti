@@ -30,23 +30,35 @@ const About = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <div className="prose prose-lg max-w-none">
-              <p className="text-muted-foreground leading-relaxed">
-                I'm a passionate computer science student with a deep love for technology and innovation. 
-                My journey in software development began with curiosity about how things work, and has evolved 
-                into a strong foundation in multiple programming languages and frameworks.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                I specialize in <strong className="text-primary">web development</strong>, with growing expertise in 
-                <strong className="text-primary"> cybersecurity</strong> and <strong className="text-primary">IoT applications</strong>. 
-                My goal is to create meaningful software solutions that solve real-world problems while 
-                contributing to innovative projects that make a positive impact.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, participating in hackathons, 
-                or sharing knowledge through technical content creation on my YouTube channel.
-              </p>
-            </div>
+  <div className="prose prose-lg max-w-none">
+  <p className="text-muted-foreground leading-relaxed text-justify">
+    I'm a passionate Computer Science student with a strong interest in technology and innovation.
+    My journey in software development began with a curiosity to understand how things work, and has 
+    grown into a solid foundation in multiple programming languages and frameworks.
+  </p>
+
+  <p className="text-muted-foreground leading-relaxed text-justify">
+    I specialize in <strong className="text-primary">web development</strong>, with growing expertise in 
+    <strong className="text-primary"> cybersecurity</strong> and <strong className="text-primary">IoT-based systems</strong>.
+    I'm focused on building meaningful software solutions that solve real-world problems and contribute 
+    to impactful, tech-driven innovations.
+  </p>
+
+  <p className="text-muted-foreground leading-relaxed text-justify">
+    Some of the projects I've worked on include 
+    <strong className="text-primary"> Cliknock</strong>, an eCommerce platform; 
+    <strong className="text-primary"> Smart Street Light System</strong>, an IoT-based automation solution; and 
+    <strong className="text-primary"> Tomato Leaf Disease Detection</strong>, an AI-powered system for smart agriculture.
+  </p>
+
+  <p className="text-muted-foreground leading-relaxed text-justify">
+    When I'm not coding, I enjoy exploring emerging technologies like 
+    <strong className="text-primary"> artificial intelligence</strong>, cybersecurity tools, and IoT concepts 
+    to stay ahead in the evolving tech landscape.
+  </p>
+</div>
+
+
           </div>
 
           <div className="space-y-6">

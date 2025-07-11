@@ -4,24 +4,24 @@ import { GraduationCap, Calendar, Award } from "lucide-react";
 const Education = () => {
   const educationData = [
     {
-      degree: "Bachelor of Technology in Computer Science",
-      institution: "GITAM University",
+      degree: "B.Tech in Computer Science(IOT&Cyber security including Blockchain technology)",
+      institution: "M.V.G.R. College of engineering,Vizianagaram",
       year: "2022 - 2026",
-      cgpa: "8.5",
+      cgpa: "7.25 CGPA",
       status: "Pursuing"
     },
     {
       degree: "Intermediate (MPC)",
-      institution: "Narayana Junior College",
+      institution: "Srichaitanya Junior College,Eluru",
       year: "2020 - 2022",
-      cgpa: "9.2",
+      cgpa: "74.1%",
       status: "Completed"
     },
     {
       degree: "Secondary School Certificate",
-      institution: "Vikas High School",
+      institution: "Z.P.High School,Jeelakarragdem",
       year: "2019 - 2020",
-      cgpa: "9.5",
+      cgpa: "96.67%",
       status: "Completed"
     }
   ];
@@ -63,7 +63,7 @@ const Education = () => {
                           </div>
                           <div className="flex items-center">
                             <Award className="mr-2 h-4 w-4 text-primary" />
-                            <span className="font-semibold text-primary">{edu.cgpa} CGPA</span>
+                            <span className="font-semibold text-primary">{edu.cgpa}</span>
                           </div>
                         </div>
                       </div>

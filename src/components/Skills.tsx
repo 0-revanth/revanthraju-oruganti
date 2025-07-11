@@ -7,17 +7,17 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: <Code className="h-6 w-6" />,
-      skills: ["Java", "Python", "C++", "JavaScript", "TypeScript", "SQL", "HTML/CSS"]
+      skills: ["Java", "Python", "C++", "JavaScript","MYSQL"]
     },
     {
       title: "Web Technologies",
       icon: <Globe className="h-6 w-6" />,
-      skills: ["React", "Vue.js", "Node.js", "Express.js", "Django", "Flask", "MongoDB", "PostgreSQL"]
+      skills: ["React", "Node.js","Django","HTML/CSS"]
     },
     {
       title: "Tools & Platforms",
       icon: <Wrench className="h-6 w-6" />,
-      skills: ["Git/GitHub", "VS Code", "Android Studio", "Arduino IDE", "Docker", "AWS", "Firebase"]
+      skills: ["Git/GitHub", "VS Code", "Arduino IDE", "Docker","Salesforce"]
     },
     {
       title: "Soft Skills",

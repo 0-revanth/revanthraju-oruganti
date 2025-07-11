@@ -6,47 +6,51 @@ import { ExternalLink, Calendar } from "lucide-react";
 const Certifications = () => {
   const certifications = [
     {
-      title: "Full Stack Web Development",
-      platform: "Coursera",
-      date: "January 2024",
-      description: "Comprehensive course covering React, Node.js, MongoDB, and deployment strategies",
-      link: "#"
-    },
-    {
-      title: "Python for Data Science",
-      platform: "NPTEL",
-      date: "November 2023",
-      description: "Advanced Python programming for data analysis, visualization, and machine learning",
-      link: "#"
-    },
-    {
-      title: "Cybersecurity Fundamentals",
-      platform: "Cisco Networking Academy",
-      date: "September 2023",
-      description: "Introduction to cybersecurity principles, threat detection, and network security",
-      link: "#"
-    },
-    {
-      title: "Cloud Computing Basics",
-      platform: "AWS Academy",
-      date: "July 2023",
-      description: "Fundamentals of cloud computing, AWS services, and cloud architecture",
-      link: "#"
-    },
-    {
-      title: "Data Structures and Algorithms",
-      platform: "GeeksforGeeks",
-      date: "May 2023",
-      description: "Comprehensive understanding of DSA concepts with practical implementations",
-      link: "#"
-    },
-    {
-      title: "IoT Application Development",
-      platform: "Arduino",
-      date: "March 2023",
-      description: "Building IoT applications using Arduino, sensors, and wireless communication",
-      link: "#"
-    }
+  title: "Responsive Web Design",
+  platform: "freeCodeCamp",
+  date: "July 2024",
+  description: "certification covering HTML, CSS, Flexbox, Grid, and accessibility for responsive websites.",
+  link: "https://www.freecodecamp.org/certification/fccfce8ce71-0218-46dc-964d-7c86cb3ea147/responsive-web-design"
+}
+,
+     {
+  title: "Introduction to Prompt Engineering",
+  platform: "IBM via edX",
+  date: "July 2024",
+  description: "Fundamentals of prompt engineering for large language models, covering prompt design, tuning, and real-world applications.",
+  link: "https://courses.edx.org/certificates/9986d3f3c1974a919f7650becb572130"
+},
+{
+  title: "CCNAv7: Introduction to Networks",
+  platform: "Cisco Networking Academy",
+  date: "June 2024",
+  description: "Hands-on training in configuring routers, switches, IPv4/IPv6 addressing, OSI model, and securing small networks.",
+  link:"https://www.netacad.com/certificates?issuanceId=8dbe5964-b54e-4acb-8bfc-97882cb398e5"
+}
+,
+{
+  title: "Cloud Computing",
+  platform: "NPTEL",
+  date: "April 2025",
+  description: "Comprehensive 12-week course on cloud models, virtualization, distributed systems, and cloud service management.",
+  link: "https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc25-cs11"
+}
+,
+{
+  title: "Introduction to Cybersecurity",
+  platform: "Cisco Networking Academy",
+  date: "March 2024",
+  description: "Foundational knowledge of cybersecurity, including threat analysis, best practices, and network defense strategies.",
+  link:"https://www.netacad.com/certificates?issuanceId=8dbe5964-b54e-4acb-8bfc-97882cb398e5"
+} 
+,
+{
+  title: "Python Essentials ",
+  platform: "Cisco Networking Academy",
+  date: "February 2024",
+  description: "Core Python programming skills including data types, control structures, functions, and basic object-oriented concepts.",
+  link: "https://www.netacad.com/certificates?issuanceId=d5c7cb84-f24f-406a-a6e8-dc231aa90bb6"
+}
   ];
 
   return (
@@ -79,7 +83,16 @@ const Certifications = () => {
                   </div>
                   
                   <Button variant="ghost" size="sm" className="h-8 text-primary hover:text-primary-foreground hover:bg-primary">
+                   <a
+                    href={cert.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="h-8 text-primary hover:text-primary-foreground hover:bg-primary px-2 rounded-md flex items-center justify-center"
+                    title="View Certificate"
+                    >
                     <ExternalLink className="h-4 w-4" />
+                  </a>
+
                   </Button>
                 </div>
               </CardContent>
